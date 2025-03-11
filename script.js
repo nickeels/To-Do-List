@@ -74,6 +74,15 @@ function removeTask(taskIndex) {
     return tasks;
 }
 
+function removeAllTasks() {
+    tasks = [];
+
+    storeTasks();
+    updateTask();
+
+    return tasks;
+}
+
 // Store tasks
 function storeTasks() {
     const tasksJSON = JSON.stringify(tasks);
