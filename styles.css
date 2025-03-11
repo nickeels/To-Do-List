@@ -1,0 +1,18 @@
+body{
+    font-family: "Comic Sans MS";
+    padding: 20px;
+    color: red;
+    background-color: lime;
+  }
+  .head {
+      color: #364F8A;
+  }
+  h1{
+    font-size: 38px;
+    color: purple;
+  }
+  h2{
+    font-size: 16px;
+    padding-block: 10px;
+    color: blue;
+  }
